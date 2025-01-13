@@ -1,0 +1,127 @@
+.article-details-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.main-image-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-section {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.3s, border 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.active-thumbnail {
+  border: 2px solid #007bff;
+}
+
+.details-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.article-description {
+  color: #555;
+  line-height: 1.6;
+}
+
+.article-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.size-selection {
+  margin: 1rem 0;
+}
+
+.size-label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.size-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.size-button:hover,
+.size-button.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn.add-to-cart {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.buy-now {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
