@@ -41,5 +41,5 @@ npm start
 📦 Order & Inventory Management\
 
 **<h1>Some of the early images and clips of the build</h1>**
-![image](https://github.com/user-attachments/assets/180a2f5d-baa4-4a6f-8a03-c90df0184e99 | width = 400 | height = 400)
+![image](https://github.com/user-attachments/assets/180a2f5d-baa4-4a6f-8a03-c90df0184e99 | width = 1000 | height = 800)
 <img src="https://github.com/user-attachments/assets/180a2f5d-baa4-4a6f-8a03-c90df0184e99" width="100" height="100">
