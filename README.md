@@ -1,5 +1,5 @@
 **<h1>E-Commerce Web Application 🛒</h1>**
-<h2>A MERN stack-based e-commerce platform with secure authentication, dynamic product management, and cloud storage integration. This project is designed to provide a scalable and efficient online shopping experience.</h2>
+<h3>A MERN stack-based e-commerce platform with secure authentication, dynamic product management, and cloud storage integration. This project is designed to provide a scalable and efficient online shopping experience.</h3>
 
 **<h1>🚀 Features</h1>**
 ✅ **User Authentication & Authorization** – Secure login, registration, JWT-based authentication, and email verification via Nodemailer.
